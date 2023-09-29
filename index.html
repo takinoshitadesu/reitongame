@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>レイトン教授からの挑戦状</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <!--画面全体-->
+  <body>
+    <!--白い枠の領域-->
+    <div class="white-box">
+      <!--タイトルを表示する領域-->
+      <div class = "title">
+        レイトン教授からの挑戦状
+      </div>
+      <!--分割線-->
+      <hr>
+      <!--手数を表示する領域-->
+      <div id = "info" class = "info">
+        娘（茶色）を救出して！
+      </div>
+      <!--場の領域-->
+      <div class = "field">
+      
+        <canvas id ="can"></canvas>
+        <script src ="game.js"></script>
+
+      </div>
+      <!--ボタンを表示する領域-->
+      <div class = "reload">
+        
+        <button type = "button" onclick="reset();">やり直す</button>
+      </div>
+    </div>
+  </body>
+</html>
